@@ -10,7 +10,7 @@
 - iOS 7.0 or later
 
 三级下拉菜单，支持单选多选
-<img src="https://github.com/KeenTeam1990/KTMultiDorpDownMenu/master/110.png" width=200px height=300px></img>
+<img src="https://github.com/KeenTeam1990/KTMultiDorpDownMenu/blob/master/110.png" width=200px height=300px></img>
 
 ## 联系方式
 
