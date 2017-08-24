@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36065EB01F4EC5910050D3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EAF1F4EC5910050D3AC /* main.m */; };
+		36065EB91F4EC5910050D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36065EB71F4EC5910050D3AC /* Main.storyboard */; };
+		36065EBB1F4EC5910050D3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36065EBA1F4EC5910050D3AC /* Assets.xcassets */; };
+		36065EBE1F4EC5910050D3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36065EBC1F4EC5910050D3AC /* LaunchScreen.storyboard */; };
+		36065EC91F4EC5920050D3AC /* MultiDorpDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EC81F4EC5920050D3AC /* MultiDorpDownMenuTests.m */; };
+		36065ED41F4EC5920050D3AC /* MultiDorpDownMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065ED31F4EC5920050D3AC /* MultiDorpDownMenuUITests.m */; };
+		36065EEE1F4EC6000050D3AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EE21F4EC6000050D3AC /* AppDelegate.m */; };
+		36065EEF1F4EC6000050D3AC /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EE41F4EC6000050D3AC /* MyModel.m */; };
+		36065EF01F4EC6000050D3AC /* MyTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EE61F4EC6000050D3AC /* MyTableCell.m */; };
+		36065EF11F4EC6000050D3AC /* MyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36065EE71F4EC6000050D3AC /* MyTableCell.xib */; };
+		36065EF21F4EC6000050D3AC /* normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36065EE81F4EC6000050D3AC /* normal@2x.png */; };
+		36065EF31F4EC6000050D3AC /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36065EE91F4EC6000050D3AC /* selected@2x.png */; };
+		36065EF41F4EC6000050D3AC /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EEB1F4EC6000050D3AC /* UIView+Addition.m */; };
+		36065EF51F4EC6000050D3AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36065EED1F4EC6000050D3AC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36065EC51F4EC5920050D3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36065EA31F4EC5910050D3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36065EAA1F4EC5910050D3AC;
+			remoteInfo = MultiDorpDownMenu;
+		};
+		36065ED01F4EC5920050D3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36065EA31F4EC5910050D3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36065EAA1F4EC5910050D3AC;
+			remoteInfo = MultiDorpDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36065EAB1F4EC5910050D3AC /* MultiDorpDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDorpDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36065EAF1F4EC5910050D3AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36065EB81F4EC5910050D3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36065EBA1F4EC5910050D3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36065EBD1F4EC5910050D3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36065EBF1F4EC5910050D3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36065EC41F4EC5920050D3AC /* MultiDorpDownMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDorpDownMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36065EC81F4EC5920050D3AC /* MultiDorpDownMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDorpDownMenuTests.m; sourceTree = "<group>"; };
+		36065ECA1F4EC5920050D3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36065ECF1F4EC5920050D3AC /* MultiDorpDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDorpDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36065ED31F4EC5920050D3AC /* MultiDorpDownMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDorpDownMenuUITests.m; sourceTree = "<group>"; };
+		36065ED51F4EC5920050D3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36065EE11F4EC6000050D3AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36065EE21F4EC6000050D3AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36065EE31F4EC6000050D3AC /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		36065EE41F4EC6000050D3AC /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		36065EE51F4EC6000050D3AC /* MyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCell.h; sourceTree = "<group>"; };
+		36065EE61F4EC6000050D3AC /* MyTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCell.m; sourceTree = "<group>"; };
+		36065EE71F4EC6000050D3AC /* MyTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableCell.xib; sourceTree = "<group>"; };
+		36065EE81F4EC6000050D3AC /* normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal@2x.png"; sourceTree = "<group>"; };
+		36065EE91F4EC6000050D3AC /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		36065EEA1F4EC6000050D3AC /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		36065EEB1F4EC6000050D3AC /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		36065EEC1F4EC6000050D3AC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36065EED1F4EC6000050D3AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36065EA81F4EC5910050D3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36065EC11F4EC5920050D3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36065ECC1F4EC5920050D3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36065EA21F4EC5910050D3AC = {
+			isa = PBXGroup;
+			children = (
+				36065EAD1F4EC5910050D3AC /* MultiDorpDownMenu */,
+				36065EC71F4EC5920050D3AC /* MultiDorpDownMenuTests */,
+				36065ED21F4EC5920050D3AC /* MultiDorpDownMenuUITests */,
+				36065EAC1F4EC5910050D3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36065EAC1F4EC5910050D3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36065EAB1F4EC5910050D3AC /* MultiDorpDownMenu.app */,
+				36065EC41F4EC5920050D3AC /* MultiDorpDownMenuTests.xctest */,
+				36065ECF1F4EC5920050D3AC /* MultiDorpDownMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36065EAD1F4EC5910050D3AC /* MultiDorpDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				36065EE11F4EC6000050D3AC /* AppDelegate.h */,
+				36065EE21F4EC6000050D3AC /* AppDelegate.m */,
+				36065EE31F4EC6000050D3AC /* MyModel.h */,
+				36065EE41F4EC6000050D3AC /* MyModel.m */,
+				36065EE51F4EC6000050D3AC /* MyTableCell.h */,
+				36065EE61F4EC6000050D3AC /* MyTableCell.m */,
+				36065EE71F4EC6000050D3AC /* MyTableCell.xib */,
+				36065EE81F4EC6000050D3AC /* normal@2x.png */,
+				36065EE91F4EC6000050D3AC /* selected@2x.png */,
+				36065EEA1F4EC6000050D3AC /* UIView+Addition.h */,
+				36065EEB1F4EC6000050D3AC /* UIView+Addition.m */,
+				36065EEC1F4EC6000050D3AC /* ViewController.h */,
+				36065EED1F4EC6000050D3AC /* ViewController.m */,
+				36065EB71F4EC5910050D3AC /* Main.storyboard */,
+				36065EBA1F4EC5910050D3AC /* Assets.xcassets */,
+				36065EBC1F4EC5910050D3AC /* LaunchScreen.storyboard */,
+				36065EBF1F4EC5910050D3AC /* Info.plist */,
+				36065EAE1F4EC5910050D3AC /* Supporting Files */,
+			);
+			path = MultiDorpDownMenu;
+			sourceTree = "<group>";
+		};
+		36065EAE1F4EC5910050D3AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36065EAF1F4EC5910050D3AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36065EC71F4EC5920050D3AC /* MultiDorpDownMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				36065EC81F4EC5920050D3AC /* MultiDorpDownMenuTests.m */,
+				36065ECA1F4EC5920050D3AC /* Info.plist */,
+			);
+			path = MultiDorpDownMenuTests;
+			sourceTree = "<group>";
+		};
+		36065ED21F4EC5920050D3AC /* MultiDorpDownMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36065ED31F4EC5920050D3AC /* MultiDorpDownMenuUITests.m */,
+				36065ED51F4EC5920050D3AC /* Info.plist */,
+			);
+			path = MultiDorpDownMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36065EAA1F4EC5910050D3AC /* MultiDorpDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36065ED81F4EC5920050D3AC /* Build configuration list for PBXNativeTarget "MultiDorpDownMenu" */;
+			buildPhases = (
+				36065EA71F4EC5910050D3AC /* Sources */,
+				36065EA81F4EC5910050D3AC /* Frameworks */,
+				36065EA91F4EC5910050D3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiDorpDownMenu;
+			productName = MultiDorpDownMenu;
+			productReference = 36065EAB1F4EC5910050D3AC /* MultiDorpDownMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36065EC31F4EC5920050D3AC /* MultiDorpDownMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36065EDB1F4EC5920050D3AC /* Build configuration list for PBXNativeTarget "MultiDorpDownMenuTests" */;
+			buildPhases = (
+				36065EC01F4EC5920050D3AC /* Sources */,
+				36065EC11F4EC5920050D3AC /* Frameworks */,
+				36065EC21F4EC5920050D3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36065EC61F4EC5920050D3AC /* PBXTargetDependency */,
+			);
+			name = MultiDorpDownMenuTests;
+			productName = MultiDorpDownMenuTests;
+			productReference = 36065EC41F4EC5920050D3AC /* MultiDorpDownMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36065ECE1F4EC5920050D3AC /* MultiDorpDownMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36065EDE1F4EC5920050D3AC /* Build configuration list for PBXNativeTarget "MultiDorpDownMenuUITests" */;
+			buildPhases = (
+				36065ECB1F4EC5920050D3AC /* Sources */,
+				36065ECC1F4EC5920050D3AC /* Frameworks */,
+				36065ECD1F4EC5920050D3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36065ED11F4EC5920050D3AC /* PBXTargetDependency */,
+			);
+			name = MultiDorpDownMenuUITests;
+			productName = MultiDorpDownMenuUITests;
+			productReference = 36065ECF1F4EC5920050D3AC /* MultiDorpDownMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36065EA31F4EC5910050D3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KEENTEAM;
+				TargetAttributes = {
+					36065EAA1F4EC5910050D3AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+					};
+					36065EC31F4EC5920050D3AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36065EAA1F4EC5910050D3AC;
+					};
+					36065ECE1F4EC5920050D3AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36065EAA1F4EC5910050D3AC;
+					};
+				};
+			};
+			buildConfigurationList = 36065EA61F4EC5910050D3AC /* Build configuration list for PBXProject "MultiDorpDownMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36065EA21F4EC5910050D3AC;
+			productRefGroup = 36065EAC1F4EC5910050D3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36065EAA1F4EC5910050D3AC /* MultiDorpDownMenu */,
+				36065EC31F4EC5920050D3AC /* MultiDorpDownMenuTests */,
+				36065ECE1F4EC5920050D3AC /* MultiDorpDownMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36065EA91F4EC5910050D3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36065EBE1F4EC5910050D3AC /* LaunchScreen.storyboard in Resources */,
+				36065EBB1F4EC5910050D3AC /* Assets.xcassets in Resources */,
+				36065EF11F4EC6000050D3AC /* MyTableCell.xib in Resources */,
+				36065EF31F4EC6000050D3AC /* selected@2x.png in Resources */,
+				36065EF21F4EC6000050D3AC /* normal@2x.png in Resources */,
+				36065EB91F4EC5910050D3AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36065EC21F4EC5920050D3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36065ECD1F4EC5920050D3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36065EA71F4EC5910050D3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36065EF51F4EC6000050D3AC /* ViewController.m in Sources */,
+				36065EEF1F4EC6000050D3AC /* MyModel.m in Sources */,
+				36065EF41F4EC6000050D3AC /* UIView+Addition.m in Sources */,
+				36065EEE1F4EC6000050D3AC /* AppDelegate.m in Sources */,
+				36065EF01F4EC6000050D3AC /* MyTableCell.m in Sources */,
+				36065EB01F4EC5910050D3AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36065EC01F4EC5920050D3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36065EC91F4EC5920050D3AC /* MultiDorpDownMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36065ECB1F4EC5920050D3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36065ED41F4EC5920050D3AC /* MultiDorpDownMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36065EC61F4EC5920050D3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36065EAA1F4EC5910050D3AC /* MultiDorpDownMenu */;
+			targetProxy = 36065EC51F4EC5920050D3AC /* PBXContainerItemProxy */;
+		};
+		36065ED11F4EC5920050D3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36065EAA1F4EC5910050D3AC /* MultiDorpDownMenu */;
+			targetProxy = 36065ED01F4EC5920050D3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36065EB71F4EC5910050D3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36065EB81F4EC5910050D3AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36065EBC1F4EC5910050D3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36065EBD1F4EC5910050D3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36065ED61F4EC5920050D3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36065ED71F4EC5920050D3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36065ED91F4EC5920050D3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = MultiDorpDownMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.MultiDorpDownMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36065EDA1F4EC5920050D3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = MultiDorpDownMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.MultiDorpDownMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36065EDC1F4EC5920050D3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = MultiDorpDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.MultiDorpDownMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiDorpDownMenu.app/MultiDorpDownMenu";
+			};
+			name = Debug;
+		};
+		36065EDD1F4EC5920050D3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = MultiDorpDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.MultiDorpDownMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiDorpDownMenu.app/MultiDorpDownMenu";
+			};
+			name = Release;
+		};
+		36065EDF1F4EC5920050D3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = MultiDorpDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.MultiDorpDownMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiDorpDownMenu;
+			};
+			name = Debug;
+		};
+		36065EE01F4EC5920050D3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = MultiDorpDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.MultiDorpDownMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiDorpDownMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36065EA61F4EC5910050D3AC /* Build configuration list for PBXProject "MultiDorpDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36065ED61F4EC5920050D3AC /* Debug */,
+				36065ED71F4EC5920050D3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36065ED81F4EC5920050D3AC /* Build configuration list for PBXNativeTarget "MultiDorpDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36065ED91F4EC5920050D3AC /* Debug */,
+				36065EDA1F4EC5920050D3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36065EDB1F4EC5920050D3AC /* Build configuration list for PBXNativeTarget "MultiDorpDownMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36065EDC1F4EC5920050D3AC /* Debug */,
+				36065EDD1F4EC5920050D3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36065EDE1F4EC5920050D3AC /* Build configuration list for PBXNativeTarget "MultiDorpDownMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36065EDF1F4EC5920050D3AC /* Debug */,
+				36065EE01F4EC5920050D3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36065EA31F4EC5910050D3AC /* Project object */;
+}
